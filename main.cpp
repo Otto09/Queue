@@ -11,15 +11,15 @@ int main()
     int q[100] = {12, 31, 7, 19};
     int qp = 3;
 
-    enque(q, qp, 56);//Adaug in coada valoarea 56
+    enque(q, qp, 56);//Add the value 56 in the queue
 
     afisez(q, qp);
 
-    int p = dequeue(q, qp);//Extrag din coada, primul
+    int p = dequeue(q, qp);//pull the queue out first
 
     afisez(q, qp);
 
-    dequeue(q, qp);//Mai extrag un element (primul), dar nu-l pastrez
+    dequeue(q, qp);//extract another item (first), but don't keep it
 
     afisez(q, qp);
 
